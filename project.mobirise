@@ -47,8 +47,8 @@
               "height": 128,
               "active": true,
               "link": "index.html",
-              "alt": "",
-              "title": "radujica_logo",
+              "alt": "RJ-logo",
+              "title": "RaduJicaLogo",
               "linkInNewWindow": false
             }
           },
@@ -80,8 +80,8 @@
             "showArrow": true
           },
           "title": "Radu JICA",
-          "text": "Welcome to my Personal Website.<br>Here I post my most recent projects.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#msg-box4-3\" data-toolbar=\"-mbrBtnMove\">Projects</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">Contact</a>"
+          "text": "Welcome to my Personal Website!<br>Here I post my most recent projects.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"index.html#msg-box4-3\" data-toolbar=\"-mbrBtnMove\">PROJECTS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a>"
         },
         {
           "_name": "footer1",
@@ -138,7 +138,11 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/snake-596x395-58.png",
+              "link": "",
+              "alt": "snake-game-image",
+              "title": "SnakeGame",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
@@ -193,7 +197,11 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/clustering2-2000x1338-11-2000x1338-37.png",
+              "link": "",
+              "alt": "clustering-image",
+              "title": "ClusteringExample",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
@@ -206,7 +214,7 @@
           "title": "CLUSTERING",
           "meta": "By John Smith posted July 30, 2015",
           "text": "A Clustering app in Java that will apply basic algorithms to group data from an input file.&nbsp;",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"Project2_clustering.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"Clustering.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "_name": "social-buttons2",
@@ -289,6 +297,11 @@
         },
         {
           "_name": "features1",
+          "_styles": {
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "features1-23",
           "_params": {
             "bgImageRadio": false,
@@ -317,31 +330,39 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "images/bootstrap.png",
+              "src": "@PROJECT_PATH@/assets/images/snake-596x395-35.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "snake-game-image",
+              "title": "SnakeGame",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title1": "Snake",
-          "caption1": "- WORK IN PROGRESS -&nbsp;",
+          "title1": "SNAKE",
+          "caption1": "A basic Snake game in Java. At the moment, it is only available for download on your computer. Please check that you have the latest Java installed.",
           "button1": "<a data-app-btn=\"true\" href=\"https://drive.google.com/open?id=0B_V8amkx-ixtd0tTM243QzlxWWs\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Play</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "images/responsive.png",
+              "src": "@PROJECT_PATH@/assets/images/clustering2-2000x1338-11-2000x1338-41.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "clustering-image",
+              "title": "ClusteringExample",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title2": "Clustering",
+          "title2": "CLUSTERING",
           "caption2": "- WORK IN PROGRESS -",
           "button2": "<a data-app-btn=\"true\" href=\"Clustering.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">Try It</a>",
           "media3": {
@@ -403,12 +424,7 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_styles": {
-            ".mbr-section__col .mbr-header__text": {
-              "text-align": "center"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
           "_name": "social-buttons2",
@@ -637,7 +653,7 @@
           },
           "title": "CLUSTERING",
           "text": "Clustering is a type of unsupervised learning applied when one wants to group data into certain categories. The app here (in Java) will take an input file and apply certain clustering algorithms and show you step-by-step what happens.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://drive.google.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Clustering.html#content5-37\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://drive.google.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Clustering.html#content5-37\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "_inherit": "msg-box3",
