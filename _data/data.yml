@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Radu Jica
+    tagline: |
+      Software Engineer specializing in Big Data with a keen eye for optimizations,
+      analysis, and DevOps.
+    # created with https://getavataaars.com/
+    avatar: profilee.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: radu.jica+jobs@gmail.com
+    phone:
+    website: radujica.github.io #do not add http://
+    linkedin: radujica
+    github: radujica
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Romanian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Conversational
+
+    interests:
+      - item: Music
+        link:
+
+      - item: DIY Projects
+        link:
+
+      - item: Guitar
+        link:
+
+      - item: Tennis
+        link:
+
+      - item: Martial Arts
+        link:
+
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Software Engineer specializing in Big Data with a keen eye for optimizations,
+#       analysis, and DevOps.
+education:
+    - degree: Joint MSc in Big Data Engineering
+      university: VU Amsterdam & University of Amsterdam
+      time: 2016 - 2018
+      details: |
+        ...
+    - degree: BSc in Computer Science
+      university: VU Amsterdam
+      time: 2013 - 2016
+      details: |
+        ...
+experiences:
+    - role: Data Engineer
+      time: Jan 2019 - Present
+      company: Unit8 SA, Zürich
+      details: |
+        Integrated data into an entity resolution pipeline on Foundry and 
+        optimized its execution through Apache Spark by 20%. Developed 
+        monitoring tools and metrics to analyze and evaluate its performance; 
+        these prompted several fixes to increase the recall of the matches up to 95%. 
+        Responsible for maintaining and scheduling this together with other pipelines 
+        to ensure fresh data reaches users as soon as possible. In direct contact 
+        with the clients for requirements and the design of additional features 
+        such as historization.
+    - role: Database Architectures Traineeship
+      time: Jan 2018 - Aug 2018
+      company: CWI, Amsterdam
+      details: |
+        Worked on optimizing data analysis pipelines as part of the Masters Thesis. 
+        Focused particularly on the Weld lazy optimizing framework from Stanford 
+        by evaluating it's performance and pros/cons. This work led to introducing 
+        intermediate results and lazy file parsing to Weld through a framework 
+        implemented in Python. These additions were used alongside Weld to build 
+        a library consisting of a small subset of Pandas.
+    - role: Software Development Engineer Intern
+      time: Jun 2017 - Sep 2017
+      company: Amazon, Edinburgh
+      details: |
+        Designed and implemented in Java an automated process to fetch, process, 
+        and store hierarchical data while ensuring maintainability and extension 
+        in the future. This automation brought the missing 30% of the data to 
+        current use while offering an effective approval process for any future 
+        data. Furthermore, have gathered insights into customer behavior and 
+        interests through big data analysis in Spark with Scala.
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: Baloo
+        link: https://github.com/radujica/baloo
+        tagline: "The bare necessities of Pandas on the Weld runtime."
+
+      - title: toSpotify
+        link: https://github.com/radujica/tospotify
+        tagline: "Utility to parse m3u local playlists and add to Spotify."
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Java
+        level: 90%
+
+      - name: C
+        level: 55%
+
+      - name: Git
+        level: 88%
+
+      - name: Apache Spark
+        level: 94%
+
+      - name: Palantir Foundry
+        level: 70%
+
+      - name: SciPy Stack
+        level: 65%
+
+      - name: Gradle & conda
+        level: 67%
+
+      - name: Docker
+        level: 48%
+
+      - name: Azure
+        level: 50%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
