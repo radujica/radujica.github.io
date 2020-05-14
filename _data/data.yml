@@ -70,7 +70,7 @@ education:
       details: |
         ...
 experiences:
-    - role: Data Engineer
+    - role: (Big) Data Engineer
       time: Jan 2019 - Present
       company: Unit8 SA, Zürich
       details: |
